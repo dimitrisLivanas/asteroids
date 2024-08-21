@@ -6,6 +6,8 @@ from constants import *
 
 def main():
     pygame.init()
+    pygame.time.Clock
+    dt = 0
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     while True:
         for event in pygame.event.get():
